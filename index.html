@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Word and Character Counter</title>
+		<link rel="stylesheet" type="text/css" href="./style.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>Word and Character Counter</h1>
+			<textarea
+				id="textInput"
+				placeholder="Enter your text here..."
+				oninput="countWordsAndChars()"
+			></textarea>
+			<div id="wordCount"></div>
+			<div id="charCount"></div>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
